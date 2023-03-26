@@ -1,0 +1,53 @@
+$mainColor: #6929ff;
+.profileForm__container {
+  //   width: 90%;
+  width: 90%;
+  margin: 10px auto;
+  .profileForm__header {
+    font-size: 20px;
+    width: 90%;
+  }
+  .profileForm__group {
+    margin-top: 20px;
+    label {
+      color: #a7a3a3;
+      margin-bottom: 10px;
+      display: block;
+      margin: 5px 0;
+    }
+    input {
+      margin-block: 10px 10px;
+      display: block;
+      width: 100%;
+      height: 40px;
+      margin: 0;
+      border-radius: 5px;
+      border: 2px solid #a7a3a3;
+      text-indent: 5px;
+      box-sizing: border-box;
+      font-size: 15px;
+    }
+  }
+  .profileForm__footer {
+    margin-top: 20px;
+    text-align: right;
+    .btn {
+      width: 80px;
+      border: 1px solid;
+      height: 35px;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+    .btnUpdate {
+      margin-right: 10px;
+      background-color: $mainColor;
+      border-color: $mainColor;
+      color: #fff;
+    }
+    .btnCancel {
+      border-color: #eee9e9;
+      background-color: #eee9e9;
+      color: $mainColor;
+    }
+  }
+}

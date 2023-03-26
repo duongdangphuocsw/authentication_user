@@ -1,0 +1,31 @@
+.App {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  background-color: #eee9e9;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  .login__container {
+    min-height: 500px;
+    min-width: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+}
+// Mobil: width < 740px
+@media only screen and (max-width: 46.1875em) {
+  .App {
+    .login__container {
+      min-width: 90%;
+    }
+  }
+}
+// Tablet: width >= 740px and width < 1024px
+@media only screen and (min-width: 46.1875em) and (max-width: 63.9375em) {
+  .App {
+    .login__container {
+      min-width: 60%;
+    }
+  }
+} ;
